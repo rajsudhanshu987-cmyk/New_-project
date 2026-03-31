@@ -335,7 +335,18 @@ h2 {
     font-style: italic;
     margin-bottom: 1.5rem;
 }
- @media (max-width: 768px) {
+.testimonial-card h4 {
+    color: var(--text-color);
+    /* font-size: 1.25rem; */
+    font-weight: bolder;
+    margin-bottom: 0.5rem;
+}
+.testimonial-card span {
+  color: var(--accent-color);
+  font-size:  1.25rem;
+}
+
+ /* @media (max-width: 768px) {
   .hero {
     flex-direction: column;
     text-align: center;
@@ -348,6 +359,6 @@ h2 {
     max-width: 100%;
     margin-top: 2rem;
   }
-} 
+}  */
 
 
