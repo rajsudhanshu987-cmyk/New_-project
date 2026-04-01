@@ -315,6 +315,7 @@ h2 {
         transform 0.3s ease,
         box-shadow 0.3s ease;
     border: 1px solid var(--border-color);
+    text-align: left;
 }
 .testimonial-card:hover {
     transform: translateY(-5px);
@@ -359,6 +360,15 @@ h2 {
     max-width: 100%;
     margin-top: 2rem;
   }
+  .hero-text h1 {
+  letter-spacing: 1px;
+}
+
 } 
+
+
+
+
+
 
 
