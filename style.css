@@ -57,9 +57,7 @@ body {
 .logo:hover {
   color: #a78bfa;
 }
-.logo span {
-  color: white;
-}
+
 .nav-links {
   list-style: none;
   display: flex;
