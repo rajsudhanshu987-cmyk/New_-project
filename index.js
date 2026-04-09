@@ -3,7 +3,7 @@ const toggleBtn = document.getElementById("themeToggle");
 toggleBtn.addEventListener("click", () => {
   document.body.classList.toggle("light-theme");
   const isLight = document.body.classList.contains("light-theme");
-  // localStorage.setItem("theme", isLight ? "light" : "dark");
+  
   toggleBtn.innerHTML = isLight
     ? "<i class='fas fa-sun'></i>"
     : "<i class='fas fa-moon'></i>";
@@ -14,7 +14,7 @@ const typedTextSpan = document.querySelector(".type-text");
 const textArray = [
   "Software Engineer",
   "Web Developer",
-  "Tech Enthusiast",
+  "Python Developer",
   "Problem Solver",
 ];
 const typingDelay = 50;
@@ -53,4 +53,10 @@ function erase() {
 document.addEventListener("DOMContentLoaded", function () {
   // On DOM Load initiate the effect
   if (textArray.length) setTimeout(type, newTextDelay + 250);
+});
+
+
+
+window.addEventListener("scroll", () => {
+  document.querySelector(".navbar").classList.toggle("scrolled", window.scrollY > 50);
 });
