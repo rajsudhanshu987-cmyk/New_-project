@@ -57,6 +57,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-window.addEventListener("scroll", () => {
-  document.querySelector(".navbar").classList.toggle("scrolled", window.scrollY > 50);
-});
+// window.addEventListener("scroll", () => {
+//   document.querySelector(".navbar").classList.toggle("scrolled", window.scrollY > 50);
+// });
