@@ -261,7 +261,7 @@ h2 {
 .work-card:hover,
 .service-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 13px 20px rgba(0, 0, 0, 0.15);
 }
 .work-card img {
   width: 100%;

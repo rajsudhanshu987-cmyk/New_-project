@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const textArray = [
     "Software Engineer",
-    "Web Developer",
+    "Frontend Developer",
     "Python Developer",
     "Problem Solver",
   ];
