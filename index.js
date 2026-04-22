@@ -24,8 +24,8 @@ document.addEventListener("DOMContentLoaded", () => {
   if (!typedTextSpan) return;
 
   const textArray = [
-    "Software Engineer",
-    "Frontend Developer",
+    "Cloud Engineer",
+    "Backend Developer",
     "Python Developer",
     "Problem Solver",
   ];
