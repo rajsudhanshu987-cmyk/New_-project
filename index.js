@@ -24,9 +24,9 @@ document.addEventListener("DOMContentLoaded", () => {
   if (!typedTextSpan) return;
 
   const textArray = [
-    "Cloud Engineer",
-    "Backend Developer",
-    "Python Developer",
+    "Ai Engineer",
+    "Full-Stack Developer",
+    "Web Developer",
     "Problem Solver",
   ];
 
@@ -70,3 +70,19 @@ document.querySelectorAll("a[href^='#']").forEach(anchor => {
       .scrollIntoView({ behavior: "smooth" });
   });
 });
+
+
+
+
+
+const contactForm = document.querySelector(".contact-form");
+
+if (contactForm) {
+  contactForm.addEventListener("submit", function (e) {
+    e.preventDefault(); 
+
+    alert("Message sent successfully! ✅");
+
+    contactForm.reset(); 
+  });
+}
