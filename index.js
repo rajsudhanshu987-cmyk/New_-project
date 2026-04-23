@@ -75,3 +75,19 @@ document.querySelectorAll("a[href^='#']").forEach(anchor => {
 
 
 
+const contactForm = document.querySelector(".contact-form");
+const successMsg = document.getElementById("successMsg");
+
+if (contactForm) {
+  contactForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    successMsg.style.display = "block";
+
+    setTimeout(() => {
+      successMsg.style.display = "none";
+    }, 3000);
+
+    contactForm.reset();
+  });
+}
